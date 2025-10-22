@@ -14,7 +14,7 @@ To run the Kanbas application locally, you'll need to start both the client and 
 
 ### Starting the React App
 
-1. Navigate into the `client` directory.
+1. Navigate into the `kanbas-react-web-app` directory.
 2. Run:
 
 ```bash
@@ -24,7 +24,7 @@ This will launch the React front-end on `localhost:3000`.
 
 ### Starting the Node Server
 
-1. Navigate into the `server` directory.
+1. Navigate into the `kanbas-node-server-app` directory.
 2. Run:
 
 ```bash
