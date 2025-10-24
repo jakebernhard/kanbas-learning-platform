@@ -42,7 +42,7 @@ Users can log in with their credentials to access the platform. Depending on the
 
 Faculty and admins can create and edit courses, configure course details, and organize modules within each course.
 
-![Course Management Screenshot](/courses.png)
+![Course Management Screenshot](/courses_dashboard.png)
 
 ### 📚 Modules
 
