@@ -34,9 +34,34 @@ This will start the Node.js server on `localhost:4000` and connect to MongoDB.
 
 ## Core Functionality
 
-- **User Authentication**: Users can log in with their credentials, and depending on their role (Admin, Faculty, or Student), they'll have different permissions.
+### 🔐 Login
 
-- **Course Management**: Admins and faculty can create new courses. Each course can have modules, and you can add both assignments and quizzes. Note: while assignments are currently placeholders (not graded), quizzes are fully functional.
+Users can log in with their credentials to access the platform. Depending on their role — such as Admin, Faculty, or Student — they are directed to the appropriate dashboard with role-specific features and permissions.
 
-- **Class Roster View**: You can view the list of people in each class, which is essentially the user management aspect. This allows you to see who is enrolled in each course.
+### 🧩 Course Management
 
+Faculty and admins can create and edit courses, configure course details, and organize modules within each course.
+
+![Course Management Screenshot](/courses.png)
+
+### 📚 Modules
+
+Modules let faculty organize their course content into separate sections, which help structure lessons and materials within a course.
+
+![Modules Screenshot](/modules.png)
+
+### 📝 Assignments
+
+Assignments can be created and organized within courses. Each assignment includes details such as title, description, and due date.
+
+![Assignments Screenshot](/assignments.png)
+
+### ❓ Quizzes
+
+Quizzes can be created and edited, including the ability to add and modify questions. This enables instructors to build and structure quizzes as part of their course content.
+
+![Quizzes Screenshot](/quizzes.png)
+
+### 👥 People (Class Roster)
+
+The People section mirrors the roster view in Canvas, displaying all users enrolled in a specific course such as faculty and students.
